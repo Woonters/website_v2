@@ -125,7 +125,7 @@ dependencies = [
  "compact_str 0.9.0",
  "console_error_panic_hook",
  "js-sys",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "web-sys",
 ]
 
@@ -167,9 +167,9 @@ dependencies = [
 
 [[package]]
 name = "bon"
-version = "3.6.5"
+version = "3.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "33d9ef19ae5263a138da9a86871eca537478ab0332a7770bac7e3f08b801f89f"
+checksum = "537c317ddf588aab15c695bf92cf55dec159b93221c074180ca3e0e5a94da415"
 dependencies = [
  "bon-macros",
  "rustversion",
@@ -177,9 +177,9 @@ dependencies = [
 
 [[package]]
 name = "bon-macros"
-version = "3.6.5"
+version = "3.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "577ae008f2ca11ca7641bd44601002ee5ab49ef0af64846ce1ab6057218a5cc1"
+checksum = "ca5abbf2d4a4c6896197c9de13d6d7cb7eff438c63dacde1dde980569cb00248"
 dependencies = [
  "darling 0.21.0",
  "ident_case",
@@ -288,12 +288,6 @@ name = "color_quant"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3d7b894f5411737b7867f4827955924d7c254fc9f4d91a6aad6b097804b1018b"
-
-[[package]]
-name = "colorsys"
-version = "0.7.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aee37dd2dc25d67ce9bca2709c384843c46d1582158ed5e2483d52b6da30e7d8"
 
 [[package]]
 name = "compact_str"
@@ -1127,7 +1121,7 @@ dependencies = [
  "compact_str 0.9.0",
  "console_error_panic_hook",
  "ratatui",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "web-sys",
 ]
 
@@ -1356,16 +1350,15 @@ dependencies = [
 
 [[package]]
 name = "tachyonfx"
-version = "0.16.0"
+version = "0.17.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2546665ffa82d81a5dd84c32041d417ad8f52f96e2c3d1c67cdf3f64540fe06f"
+checksum = "da3f74c8af5d90c0971ae28f36298d89b1cf3890f0871fe0bbbc96d28faf9fdd"
 dependencies = [
  "bon",
- "colorsys",
  "compact_str 0.9.0",
  "ratatui",
  "simple-easing",
- "thiserror 2.0.12",
+ "thiserror 2.0.16",
  "unicode-width 0.2.0",
  "web-time",
 ]
@@ -1393,11 +1386,11 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "2.0.12"
+version = "2.0.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "567b8a2dae586314f7be2a752ec7474332959c6460e02bde30d702a66d488708"
+checksum = "3467d614147380f2e4e374161426ff399c91084acd2363eaf549172b3d5e60c0"
 dependencies = [
- "thiserror-impl 2.0.12",
+ "thiserror-impl 2.0.16",
 ]
 
 [[package]]
@@ -1413,9 +1406,9 @@ dependencies = [
 
 [[package]]
 name = "thiserror-impl"
-version = "2.0.12"
+version = "2.0.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f7cf42b4507d8ea322120659672cf1b9dbb93f8f2d4ecfd6e51350ff5b17a1d"
+checksum = "6c5e1be1c48b9172ee610da68fd9cd2770e7a4056cb3fc98710ee6906f0c7960"
 dependencies = [
  "proc-macro2",
  "quote",
