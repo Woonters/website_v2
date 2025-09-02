@@ -369,7 +369,7 @@ impl App {
                     let url = match v {
                         0 => "https://github.com/woonters",
                         1 => "https://youtube.com/@woonters",
-                        2 => "https://twitter.com/woonters",
+                        2 => "https://app.radicle.xyz/nodes/radicle.woonters.com",
                         _ => "https://github.com/woonters",
                     };
                     let _ = call_js_function("open", vec![url]);
@@ -452,7 +452,7 @@ impl App {
             .title_alignment(Alignment::Center)
             .border_type(BorderType::Rounded)
             .title("Links");
-        let links_list = vec!["Github", "Youtube", "Twitter"];
+        let links_list = vec!["Github", "Youtube", "Radicle"];
         List::new(links_list)
             .block(links_block)
             .fg(self.theme.borrow().color_fg)
