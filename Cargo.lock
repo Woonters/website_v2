@@ -167,9 +167,9 @@ dependencies = [
 
 [[package]]
 name = "bon"
-version = "3.7.2"
+version = "3.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c2529c31017402be841eb45892278a6c21a000c0a17643af326c73a73f83f0fb"
+checksum = "ebeb9aaf9329dff6ceb65c689ca3db33dbf15f324909c60e4e5eef5701ce31b1"
 dependencies = [
  "bon-macros",
  "rustversion",
@@ -177,9 +177,9 @@ dependencies = [
 
 [[package]]
 name = "bon-macros"
-version = "3.7.2"
+version = "3.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d82020dadcb845a345591863adb65d74fa8dc5c18a0b6d408470e13b7adc7005"
+checksum = "77e9d642a7e3a318e37c2c9427b5a6a48aa1ad55dcd986f3034ab2239045a645"
 dependencies = [
  "darling 0.21.3",
  "ident_case",
@@ -289,12 +289,6 @@ name = "color_quant"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3d7b894f5411737b7867f4827955924d7c254fc9f4d91a6aad6b097804b1018b"
-
-[[package]]
-name = "colorsys"
-version = "0.7.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "45895c323df503d5083bd1062d7a1459e24f5524d9ae746b2699d096dde883e9"
 
 [[package]]
 name = "compact_str"
@@ -1292,12 +1286,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "simple-easing"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "832ddd7df0d98d6fd93b973c330b7c8e0742d5cb8f1afc7dea89dba4d2531aa1"
-
-[[package]]
 name = "smallvec"
 version = "1.15.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1363,15 +1351,13 @@ dependencies = [
 
 [[package]]
 name = "tachyonfx"
-version = "0.16.0"
+version = "0.20.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2546665ffa82d81a5dd84c32041d417ad8f52f96e2c3d1c67cdf3f64540fe06f"
+checksum = "a3d8d12f9a009654ae418254aa361dd61d9f9a581bcc27d024f39cb7ccaee33f"
 dependencies = [
  "bon",
- "colorsys",
  "compact_str 0.9.0",
  "ratatui",
- "simple-easing",
  "thiserror 2.0.16",
  "unicode-width 0.2.0",
  "web-time",
